@@ -1,9 +1,9 @@
-# Chris Titus Tech's Bypass NRO on STEROIDS!?!?!?
+# Chris Titus Tech's Bypass with Windows 10/11 Pro generic product key bild in
 
 From the OOBE Screen press Shift + F10
 
 ```
-curl -L christitus.com/bypass -o skip.cmd
+curl -L https://github.com/OpenMan335/Bypassy -o skip.cmd
 skip.cmd
 ```
 
