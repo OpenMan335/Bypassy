@@ -6,7 +6,7 @@
 		<component name="Microsoft-Windows-Setup" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
 			<UserData>
 				<ProductKey>
-					<Key>00000-00000-00000-00000-00000</Key>
+					<Key>YTMG3-N6DKC-DKB77-7M9GH-8HVX7</Key>
 					<WillShowUI>OnError</WillShowUI>
 				</ProductKey>
 				<AcceptEula>true</AcceptEula>
@@ -48,7 +48,7 @@
 			<UserAccounts>
 				<LocalAccounts>
 					<LocalAccount wcm:action="add">
-						<Name>Admin</Name>
+						<Name>User</Name>
 						<DisplayName></DisplayName>
 						<Group>Administrators</Group>
 						<Password>
@@ -278,7 +278,7 @@ $removeCommand = {
     $InputObject
   );
   process {
-    $InputObject | Disable-WindowsOptionalFeature -Online -Remove -NoRestart -ErrorAction 'Continue';
+    $InputObject | DisablYTMG3-N6DKC-DKB77-7M9GH-8HVX7e-WindowsOptionalFeature -Online -Remove -NoRestart -ErrorAction 'Continue';
   }
 };
 $type = 'Feature';
